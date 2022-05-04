@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #ddd;
+}
+
+.toDo{
+    background-color: #fff;
+    width: 500px;
+    margin: 50px auto;
+    padding: 40px 20px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.div_fecha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.div_fecha_l,
+.div_fecha_r{
+    font-weight: bold;
+}
+
+.div_fecha_l div:nth-child(1) p{
+    font-size: 50px;
+  
+    
+}
+
+.div_fecha_l div:nth-child(2) p{
+    display: flex;
+}
+
+.div_fecha_l{
+    display: flex;
+    align-items: center;
+}
+.div_fecha_r{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.div_fecha_l_month{
+    text-transform: capitalize;
+}
+
+
+.div_tarea{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.div_input{
+    flex-grow: 1;
+    margin-right: 20px;
+    border: 0;
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 40px;
+    padding: 5px;
+    outline: none;
+}
+
+
+.div_agregar{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(22, 135, 22, 0.9);
+    color: #fff;
+    font-weight: bold;
+}
+
+.div_ordenar{
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.div_t{
+    
+    margin-right: 20px;
+    background-color: rgba(14, 140, 14, 0.7);
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.listo{
+    background-color: #ddd;
+    text-decoration: line-through;
+    color: #000;
+}
+
+.div_ta{
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.btn_delete{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(188, 17, 17, 0.9);
+    color: #fff;
+}
+
