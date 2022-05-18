@@ -103,6 +103,9 @@ body{
     padding: 15px;
     border-radius: 5px;
     flex-grow: 1;
+    width: 375px;
+    word-wrap: break-word;
+    
 }
 
 .listo{
